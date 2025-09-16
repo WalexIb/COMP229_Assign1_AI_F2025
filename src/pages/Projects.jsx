@@ -6,14 +6,14 @@ import project3 from '../assets/projects/project3.jpg';
 export default function Projects() {
   const projects = [
     {
-      title: "Smart Grocery List App",
+      title: "Auto Sales Website",
       image: project1,
-      description: "A web app that helps users generate and manage grocery lists automatically using AI. I designed the backend logic and implemented the front-end interface."
+      description: "Designed and developed a responsive, user-focused auto sales website showcasing available inventory with detailed listings for each vehicle"
     },
     {
-      title: "Fitness Tracking App",
+      title: "SRS Documentation - Smart Fitness App",
       image: project2,
-      description: "A mobile app that allows users to track workouts, monitor progress, and stay motivated. I built the user dashboard and integrated real-time analytics."
+      description: "Collaborated with an Agile team to produce a clear and comprehensive SRS document for the Smart Fitness App, ensuring alignment between user needs, functional requirements, and development goals"
     },
     {
       title: "Portfolio Website",
