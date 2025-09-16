@@ -1,7 +1,7 @@
 import './Services.css';
-import webdev from '../assets/services/webdev.png';
-import mobile from '../assets/services/mobile.png';
-import ai from '../assets/services/ai.png';
+import webdev from '../assets/services/webdev.jpg';
+import mobile from '../assets/services/mobile.jpg';
+import ai from '../assets/services/ai.jpg';
 
 export default function Services() {
   const services = [

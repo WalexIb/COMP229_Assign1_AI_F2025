@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../assets/logo.jpg';  // Put your logo image in src/assets
+import logo from '../assets/logo.jpg'; // Import your logo image
 import './Navbar.css';  // Import CSS file
 
 export default function Navbar() {
@@ -26,7 +26,7 @@ export default function Navbar() {
           {/* OR Initials Logo (uncomment to use) */}
           {/* <div className="logo-initials">WB</div> */}
 
-          <div className="logo-text">Your Name</div>
+          <div className="logo-text">Adewale Ibrahim</div>
         </div>
 
         {/* Desktop Nav */}
