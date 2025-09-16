@@ -1,3 +1,11 @@
+/* File: Contact.css
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
+/* General Styles */
+
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -37,6 +45,7 @@
   color: #111827;
 }
 
+/* Form styles */
 .form-row {
   display: flex;
   gap: 10px;

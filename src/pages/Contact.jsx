@@ -1,3 +1,10 @@
+/* File: Contact.jsx
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
+/* Import necessary modules and assets */
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Contact.css";

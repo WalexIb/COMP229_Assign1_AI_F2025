@@ -1,29 +1,11 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-// import "./Home.css";
 
-// export default function Home() {
-//   return (
-//     <section className="home">
-//       {/* Welcome Message */}
-//       <h1>Welcome to My Portfolio</h1>
-//       <p>
-//         I’m Adewale Ibrahim, a passionate developer and problem-solver.  
-//         My mission is to create meaningful, user-friendly digital solutions 
-//         that make a difference. Explore my portfolio to learn more about me, 
-//         my projects, and the services I offer.
-//       </p>
+/* File: Home.jsx
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
 
-//       {/* Button to About Page */}
-//       <Link to="/about" className="btn">
-//         Learn More About Me
-//       </Link>
-//     </section>
-//   );
-// }
-
-
-
+/* Import necessary modules and assets */
 import { Link } from "react-router-dom";
 import './Home.css';
 

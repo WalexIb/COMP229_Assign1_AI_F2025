@@ -1,8 +1,16 @@
+/* File: Services.jsx
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
+/* Import necessary modules and assets */
 import './Services.css';
 import webdev from '../assets/services/webdev.jpg';
 import mobile from '../assets/services/mobile.jpg';
 import ai from '../assets/services/ai.jpg';
 
+/* Services Component */
 export default function Services() {
   const services = [
     {
@@ -22,6 +30,7 @@ export default function Services() {
     }
   ];
 
+  /* Render the Services component */
   return (
     <div className="services-container">
       <h1>My Services</h1>

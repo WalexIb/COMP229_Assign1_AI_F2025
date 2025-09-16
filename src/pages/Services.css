@@ -1,3 +1,10 @@
+/* File: Services.css
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
+/* Container for the services section */
 .services-container {
   text-align: center;
   padding: 40px 20px;
@@ -9,6 +16,7 @@
   color: #4b5563;
 }
 
+/* Services grid layout */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -16,6 +24,7 @@
   margin-top: 30px;
 }
 
+/* Individual service card styling */
 .service-card {
   background: #ffffff;
   border-radius: 12px;

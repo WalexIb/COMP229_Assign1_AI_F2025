@@ -1,8 +1,16 @@
+/* File: Projects.jsx
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
+/* Import necessary modules and assets */
 import './Project.css';
 import project1 from '../assets/projects/project1.jpg';
 import project2 from '../assets/projects/project2.jpg';
 import project3 from '../assets/projects/project3.jpg';
 
+/*Projects Component*/
 export default function Projects() {
   const projects = [
     {
@@ -22,6 +30,7 @@ export default function Projects() {
     }
   ];
 
+  /* Render the Projects component */
   return (
     <div className="projects-container">
       <h1>My Projects</h1>

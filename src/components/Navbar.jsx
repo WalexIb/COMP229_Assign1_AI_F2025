@@ -1,9 +1,17 @@
+/* File: Navbar.jsx
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
+//import necessary modules
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.jpg'; // Import your logo image
 import './Navbar.css';  // Import CSS file
 
-export default function Navbar() {
+// Navbar Component function
+export default function Navbar() { 
   const [menuOpen, setMenuOpen] = useState(false);
   const { pathname } = useLocation();
 
@@ -23,13 +31,10 @@ export default function Navbar() {
           {/* Image Logo */}
           <img src={logo} alt="Logo" className="logo-img" />
 
-          {/* OR Initials Logo (uncomment to use) */}
-          {/* <div className="logo-initials">WB</div> */}
-
           <div className="logo-text">Adewale Ibrahim</div>
         </div>
 
-        {/* Desktop Nav */}
+        {/* Desktop Nav Links */}
         <nav className="nav-links">
           {navLinks.map(link => (
             <Link

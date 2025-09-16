@@ -1,8 +1,16 @@
+/* File: Home.css
+   Student: Adewale Ibrahim
+   StudentID: 301515732
+   Date: 2025-09-15
+*/
+
+/* General Styles */
 .home {
   text-align: center;
   padding: 50px;
 }
 
+/* Home page button styling */
 .home button {
   margin-top: 20px;
   padding: 10px 20px;
