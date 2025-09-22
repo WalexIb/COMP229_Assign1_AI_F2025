@@ -7,20 +7,90 @@
 /* General Styles */
 .home {
   text-align: center;
-  padding: 50px;
+  padding: 60px 24px;
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(33, 205, 136, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(79, 70, 229, 0.08);
+  transition: box-shadow 0.3s;
+}
+
+.home:hover {
+  box-shadow: 0 12px 40px rgba(79, 70, 229, 0.15);
+}
+
+/* Home page title */
+.home h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+/* Home page subtitle */
+.home h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #3730a3;
+  margin-bottom: 30px;
+}
+
+/* Home page paragraph */
+.home p {
+  font-size: 1.15rem;
+  color: #333;
+  margin-bottom: 32px;
+  max-width: 700px;
 }
 
 /* Home page button styling */
 .home button {
   margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #4f46e5;
+  padding: 12px 32px;
+  background: linear-gradient(90deg, #4f46e5 0%, #6366f1 100%);
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
   cursor: pointer;
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.12);
+  transition: background 0.2s, transform 0.2s;
 }
 
 .home button:hover {
-  background-color: #3730a3;
+  background: linear-gradient(90deg, #3730a3 0%, #4f46e5 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .home {
+    padding: 32px 8px;
+    max-width: 98vw;
+  }
+  .home h1 {
+    font-size: 2rem;
+  }
+  .home h2 {
+    font-size: 1.1rem;
+  }
+  .home p {
+    font-size: 1rem;
+  }
+}
+
+/* Shared container for all pages */
+.main-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.04);
 }

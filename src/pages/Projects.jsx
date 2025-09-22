@@ -32,7 +32,7 @@ export default function Projects() {
 
   /* Render the Projects component */
   return (
-    <div className="projects-container">
+    <div className="main-container">
       <h1>My Projects</h1>
       <div className="projects-grid">
         {projects.map((project, index) => (

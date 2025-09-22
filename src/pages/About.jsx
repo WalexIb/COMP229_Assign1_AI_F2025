@@ -13,7 +13,7 @@ import resumeFile from '../assets/resume.pdf'; // Import the resume file
 
 export default function About() {
   return (
-    <div className="about-container">
+    <div className="main-container">
       <h1>Adewale Ibrahim</h1>
       <img src={profileImage} alt="Adewale Ibrahim" className="profile-image" />
       

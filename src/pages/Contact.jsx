@@ -33,13 +33,13 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact-container">
+    <div className="main-container">
       {/* Contact Info Panel */}
       <div className="contact-info">
         <h2>Contact Information</h2>
         <p><strong>Name:</strong> Adewale Ibrahim</p>
-        <p><strong>Email:</strong> adewale@example.com</p>
-        <p><strong>Phone:</strong> +1 (416) 123-4567</p>
+        <p><strong>Email:</strong> aibra188@my.centennialcollege.ca</p>
+        <p><strong>Phone:</strong> +1 (647) 561 4661</p>
         <p><strong>Location:</strong> Toronto, Canada</p>
       </div>
 

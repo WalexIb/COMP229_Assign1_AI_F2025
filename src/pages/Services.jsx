@@ -32,7 +32,7 @@ export default function Services() {
 
   /* Render the Services component */
   return (
-    <div className="services-container">
+    <div className="main-container">
       <h1>My Services</h1>
       <p className="services-intro">
         Here are some of the services I offer to help clients bring their ideas to life.

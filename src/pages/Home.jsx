@@ -11,9 +11,9 @@ import './Home.css';
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="main-container">
       <h1>Welcome to My Portfolio</h1>
-      <p>My mission is to create impactful web applications and showcase my skills.</p>
+      <p>"My mission is to design and deliver reliable, user-friendly software that solves real-world problems. I strive to write clean and maintainable code, embrace continuous learning, and contribute to innovative projects that make technology accessible, impactful, and future-ready."</p>
       <Link to="/about">
         <button>Learn More About Me</button>
       </Link>
